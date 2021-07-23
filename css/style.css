@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+html, body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.center{
+    max-width: 1280px;
+    margin: 0 4%;
+}
+
+.header{
+    background-color: #0A043C;
+    width: 100%;
+    height: 90px;
+}
+
+.header img{
+    margin: 30px;
+}
+
+.container-banner .center{
+    height: 540px;
+}
+
+.container-banner{
+    background-image: url(../images/day29-selfie-boy.png);
+    width: 100%;
+    background-position: top center;
+    
+}
+
+.list{
+    float: left;
+    background-color: #0a043c96;
+    width: 600px;
+    margin-top: 7%;
+    border-radius: 15px;
+    padding: 5% 2%;
+}
+
+.list ul{
+    list-style-position: inside;
+}
+
+.list ul li{
+    margin-top: 20px;
+    color: wheat;
+}
+
+.form{
+    background-color: #A3DDCB;
+    width: 380px;
+    height: calc(100% + 60px);
+    float: right;
+    position: relative;
+    top: -30px;
+    background-clip: padding-box;
+    border-radius: 13px;
+    border: solid 9px #cf5757a4;
+    padding: 20px;
+    font-weight: normal;
+}
+
+.form > h2{
+    text-align: center;
+    color: #0A043C;
+    margin-bottom: 20px;
+}
+
+.input-text{
+    margin-bottom: 20px;
+}
+
+.input-text label{
+    display: inline-block;
+    width: 100%;
+    color: #03506F;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.input-text input[type=text]{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    outline: none;
+    border: 3px solid #0a043ca4;
+    font-size: 20px;
+}
+
+.form p{
+    font-size: 20px;
+    color: #0A043C;
+    font-weight: 600;
+}
+
+.input-submit{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.input-submit input[type=submit]{
+    background-color: #03506F;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    border: 0;
+    border-radius: 15px;
+}
+
+.input-submit input[type=submit]:hover{
+    background-color: #0A043C;
+}
+
+.container-2{
+    text-align: center;
+    padding-top: 60px;
+    width: 100%;
+    background-color: #1E5F74;
+}
+
+.container-2 h2{
+    color: #FCDAB7;
+    margin-bottom: 10px;
+}
+
+.container-2 p{
+    margin: 20px auto;
+    width: 100%;
+    max-width: 700px;
+    text-align: justify;
+    color: white;
+}
+
+.arrow{
+    background-image: url(../images/arrow.png);
+    width: 64px;
+    height: 64px;
+    position: relative;
+    top: 32px;
+    left: calc(50% - 32px);
+}
+
+.container-3{
+    text-align: center;
+    width: 100%;
+}
+
+.container-3 .center > h2{
+    color: #0A043C;
+    margin-top: 40px;
+}
+
+.box{
+    padding: 20px;
+    width: 33.3%;
+    float: left;
+}
+
+.box img{
+    width: 100%;
+}
+
+.box p{
+    text-align: justify;
+}
+
+.footer{
+    width: 100%;
+    border-top: solid 2px #0A043C;
+    padding: 5%;
+    text-align: center;
+}
+
+.footer p{
+    color: #1F4068;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1090px){
+    .header{
+        text-align: center;
+    }
+    
+    .container-banner > .center{
+        height: auto;
+        text-align: center;
+    }
+
+    .list{
+        float: none;
+        display: inline-block;
+        max-width: 700px;
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    .form{
+        width: 400px;
+        height: calc(100% + 60px);
+        float: none;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .box{
+        float: none;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .box img{
+        width: 70%;
+    }
+    
+}
