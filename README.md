@@ -12,7 +12,7 @@
     <img title="mobile" src="images/img-1m.gif" width="26%">
 </div>
 
-<div align="center">
+<div align="center" style="margin-top: 20px;">
     <p>Sessões e Rodapé</p>
     <img title="desktop" width="72%" src="images/gif-1.gif">
     <img title="mobile" src="images/gif-1m.gif"width="26%">
